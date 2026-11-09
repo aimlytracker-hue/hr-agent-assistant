@@ -1,3 +1,5 @@
+> Revision note: the current assignment review is in design-and-evaluation.md and docs/FINAL_REQUIREMENTS_AUDIT.md. The updated evaluation has 26 gold cases and 20 core tests. MCP traces now include returned results; ingestion reads six Markdown/TXT sources into a persisted sparse store.
+
 # Reviewer acceptance checklist
 
 Reviewer: Scott. Target: score 5. This checklist records evidence and remaining acceptance work; it is not a self-awarded score.

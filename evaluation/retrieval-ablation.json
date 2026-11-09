@@ -1,0 +1,369 @@
+{
+  "scope": "Six fixed retrieval probes; recall against authored relevant sections. Corpus and chunking held constant.",
+  "results": [
+    {
+      "k": 1,
+      "macro_recall": 0.5277777777777778,
+      "macro_precision": 1,
+      "rows": [
+        {
+          "query": "annual leave request approval carryover",
+          "gold": [
+            "PTO-1",
+            "PTO-2",
+            "PTO-3"
+          ],
+          "retrieved": [
+            "PTO-2"
+          ],
+          "recall": 0.3333333333333333,
+          "precision": 1
+        },
+        {
+          "query": "remote eligibility standard arrangement location",
+          "gold": [
+            "REMOTE-1",
+            "REMOTE-2",
+            "REMOTE-3"
+          ],
+          "retrieved": [
+            "REMOTE-2"
+          ],
+          "recall": 0.3333333333333333,
+          "precision": 1
+        },
+        {
+          "query": "meals evidence deadline",
+          "gold": [
+            "EXPENSE-1",
+            "EXPENSE-3"
+          ],
+          "retrieved": [
+            "EXPENSE-3"
+          ],
+          "recall": 0.5,
+          "precision": 1
+        },
+        {
+          "query": "hotel evidence deadline",
+          "gold": [
+            "EXPENSE-2",
+            "EXPENSE-3"
+          ],
+          "retrieved": [
+            "EXPENSE-3"
+          ],
+          "recall": 0.5,
+          "precision": 1
+        },
+        {
+          "query": "benefits standard plan enrollment",
+          "gold": [
+            "BENEFITS-1",
+            "BENEFITS-2"
+          ],
+          "retrieved": [
+            "BENEFITS-1"
+          ],
+          "recall": 0.5,
+          "precision": 1
+        },
+        {
+          "query": "devices networks approved corporate VPN security",
+          "gold": [
+            "SECURITY-2"
+          ],
+          "retrieved": [
+            "SECURITY-2"
+          ],
+          "recall": 1,
+          "precision": 1
+        }
+      ]
+    },
+    {
+      "k": 2,
+      "macro_recall": 0.8055555555555555,
+      "macro_precision": 0.8333333333333334,
+      "rows": [
+        {
+          "query": "annual leave request approval carryover",
+          "gold": [
+            "PTO-1",
+            "PTO-2",
+            "PTO-3"
+          ],
+          "retrieved": [
+            "PTO-2",
+            "PTO-3"
+          ],
+          "recall": 0.6666666666666666,
+          "precision": 1
+        },
+        {
+          "query": "remote eligibility standard arrangement location",
+          "gold": [
+            "REMOTE-1",
+            "REMOTE-2",
+            "REMOTE-3"
+          ],
+          "retrieved": [
+            "REMOTE-2",
+            "REMOTE-1"
+          ],
+          "recall": 0.6666666666666666,
+          "precision": 1
+        },
+        {
+          "query": "meals evidence deadline",
+          "gold": [
+            "EXPENSE-1",
+            "EXPENSE-3"
+          ],
+          "retrieved": [
+            "EXPENSE-3",
+            "EXPENSE-1"
+          ],
+          "recall": 1,
+          "precision": 1
+        },
+        {
+          "query": "hotel evidence deadline",
+          "gold": [
+            "EXPENSE-2",
+            "EXPENSE-3"
+          ],
+          "retrieved": [
+            "EXPENSE-3",
+            "EXPENSE-2"
+          ],
+          "recall": 1,
+          "precision": 1
+        },
+        {
+          "query": "benefits standard plan enrollment",
+          "gold": [
+            "BENEFITS-1",
+            "BENEFITS-2"
+          ],
+          "retrieved": [
+            "BENEFITS-1",
+            "BENEFITS-3"
+          ],
+          "recall": 0.5,
+          "precision": 0.5
+        },
+        {
+          "query": "devices networks approved corporate VPN security",
+          "gold": [
+            "SECURITY-2"
+          ],
+          "retrieved": [
+            "SECURITY-2",
+            "SECURITY-4"
+          ],
+          "recall": 1,
+          "precision": 0.5
+        }
+      ]
+    },
+    {
+      "k": 4,
+      "macro_recall": 1,
+      "macro_precision": 0.7083333333333334,
+      "rows": [
+        {
+          "query": "annual leave request approval carryover",
+          "gold": [
+            "PTO-1",
+            "PTO-2",
+            "PTO-3"
+          ],
+          "retrieved": [
+            "PTO-2",
+            "PTO-3",
+            "PTO-1",
+            "PTO-5"
+          ],
+          "recall": 1,
+          "precision": 0.75
+        },
+        {
+          "query": "remote eligibility standard arrangement location",
+          "gold": [
+            "REMOTE-1",
+            "REMOTE-2",
+            "REMOTE-3"
+          ],
+          "retrieved": [
+            "REMOTE-2",
+            "REMOTE-1",
+            "REMOTE-3",
+            "REMOTE-4"
+          ],
+          "recall": 1,
+          "precision": 0.75
+        },
+        {
+          "query": "meals evidence deadline",
+          "gold": [
+            "EXPENSE-1",
+            "EXPENSE-3"
+          ],
+          "retrieved": [
+            "EXPENSE-3",
+            "EXPENSE-1"
+          ],
+          "recall": 1,
+          "precision": 1
+        },
+        {
+          "query": "hotel evidence deadline",
+          "gold": [
+            "EXPENSE-2",
+            "EXPENSE-3"
+          ],
+          "retrieved": [
+            "EXPENSE-3",
+            "EXPENSE-2"
+          ],
+          "recall": 1,
+          "precision": 1
+        },
+        {
+          "query": "benefits standard plan enrollment",
+          "gold": [
+            "BENEFITS-1",
+            "BENEFITS-2"
+          ],
+          "retrieved": [
+            "BENEFITS-1",
+            "BENEFITS-3",
+            "BENEFITS-2",
+            "BENEFITS-5"
+          ],
+          "recall": 1,
+          "precision": 0.5
+        },
+        {
+          "query": "devices networks approved corporate VPN security",
+          "gold": [
+            "SECURITY-2"
+          ],
+          "retrieved": [
+            "SECURITY-2",
+            "SECURITY-4",
+            "REMOTE-3",
+            "SECURITY-3"
+          ],
+          "recall": 1,
+          "precision": 0.25
+        }
+      ]
+    },
+    {
+      "k": 8,
+      "macro_recall": 1,
+      "macro_precision": 0.5625,
+      "rows": [
+        {
+          "query": "annual leave request approval carryover",
+          "gold": [
+            "PTO-1",
+            "PTO-2",
+            "PTO-3"
+          ],
+          "retrieved": [
+            "PTO-2",
+            "PTO-3",
+            "PTO-1",
+            "PTO-5",
+            "PTO-4",
+            "REMOTE-5",
+            "REMOTE-2",
+            "EXPENSE-4"
+          ],
+          "recall": 1,
+          "precision": 0.375
+        },
+        {
+          "query": "remote eligibility standard arrangement location",
+          "gold": [
+            "REMOTE-1",
+            "REMOTE-2",
+            "REMOTE-3"
+          ],
+          "retrieved": [
+            "REMOTE-2",
+            "REMOTE-1",
+            "REMOTE-3",
+            "REMOTE-4",
+            "REMOTE-5",
+            "BENEFITS-1"
+          ],
+          "recall": 1,
+          "precision": 0.5
+        },
+        {
+          "query": "meals evidence deadline",
+          "gold": [
+            "EXPENSE-1",
+            "EXPENSE-3"
+          ],
+          "retrieved": [
+            "EXPENSE-3",
+            "EXPENSE-1"
+          ],
+          "recall": 1,
+          "precision": 1
+        },
+        {
+          "query": "hotel evidence deadline",
+          "gold": [
+            "EXPENSE-2",
+            "EXPENSE-3"
+          ],
+          "retrieved": [
+            "EXPENSE-3",
+            "EXPENSE-2"
+          ],
+          "recall": 1,
+          "precision": 1
+        },
+        {
+          "query": "benefits standard plan enrollment",
+          "gold": [
+            "BENEFITS-1",
+            "BENEFITS-2"
+          ],
+          "retrieved": [
+            "BENEFITS-1",
+            "BENEFITS-3",
+            "BENEFITS-2",
+            "BENEFITS-5",
+            "BENEFITS-4",
+            "REMOTE-2"
+          ],
+          "recall": 1,
+          "precision": 0.3333333333333333
+        },
+        {
+          "query": "devices networks approved corporate VPN security",
+          "gold": [
+            "SECURITY-2"
+          ],
+          "retrieved": [
+            "SECURITY-2",
+            "SECURITY-4",
+            "REMOTE-3",
+            "SECURITY-3",
+            "SECURITY-1",
+            "SECURITY-5"
+          ],
+          "recall": 1,
+          "precision": 0.16666666666666666
+        }
+      ]
+    }
+  ]
+}

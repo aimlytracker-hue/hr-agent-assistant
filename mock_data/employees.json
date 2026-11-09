@@ -1,0 +1,38 @@
+[
+  {
+    "id": "E001",
+    "name": "Aisha Rahman",
+    "department": "Operations",
+    "role": "Analyst",
+    "manager": "Daniel Tan",
+    "location": "Kuala Lumpur",
+    "employment": "Full time",
+    "pto": 12,
+    "benefits": "Standard",
+    "remoteEligible": true
+  },
+  {
+    "id": "E002",
+    "name": "Daniel Tan",
+    "department": "Operations",
+    "role": "Team lead",
+    "manager": "Mira Lee",
+    "location": "Kuala Lumpur",
+    "employment": "Full time",
+    "pto": 7,
+    "benefits": "Standard",
+    "remoteEligible": true
+  },
+  {
+    "id": "E003",
+    "name": "Priya Kumar",
+    "department": "Customer service",
+    "role": "Branch specialist",
+    "manager": "Daniel Tan",
+    "location": "Penang",
+    "employment": "Full time",
+    "pto": 3,
+    "benefits": "Standard",
+    "remoteEligible": false
+  }
+]

@@ -1,0 +1,11 @@
+# AI tooling disclosure
+
+This project was developed with substantial OpenAI Codex assistance. Codex generated and revised application code, synthetic policies and employee data, tests, evaluation scripts, documentation and presentation materials, and operated the local build, GitHub and Sites deployment tools. The live application uses the OpenAI Responses API for bounded intent planning and evidence-constrained explanations. A same-provider automated rubric judge evaluates supportedness and citation accuracy; its results are labeled as model-based, not independent human review.
+
+What worked well: rapid separation of the web interface, orchestration, MCP transport, policy retrieval, structured data and persistence; repeatable local and CI verification; generation of synthetic test cases; operational traces that made failures inspectable.
+
+What did not work well: the first brief review omitted several submission-specific details later found in the complete assignment. The original evaluation had only 12 cases; the revised set has 26. Original traces omitted tool outputs; these were added. Early environment/network restrictions and an expired temporary key-setup file required recovery. Literal fact checks are brittle to equivalent model phrasing and do not establish semantic correctness, so a separate disclosed rubric review was added. Sparse retrieval misses semantic paraphrases and should not be represented as a dense neural embedding system.
+
+Human responsibility: the submitting student must understand and explain the implementation, verify the evidence, record their own demonstration, complete required identity checks through the course process, and remain accountable for correctness, security and academic integrity. No personal authorship experience or reviewer approval has been fabricated. Do not present AI-authored material as solely hand-coded work.
+
+Source attribution: the application builds on the OpenAI Sites Vinext starter. Third-party packages and versions are recorded in package.json and package-lock.json and retain their licenses. Policy content and employee records are original synthetic demonstration material, not Bank Rakyat policy or legal advice. OpenAI, GitHub Actions, Cloudflare Workers/D1, Vinext and React are external services/libraries, not work authored by the student.

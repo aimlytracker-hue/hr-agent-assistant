@@ -1,0 +1,138 @@
+{
+  "timestamp": "2026-11-09T13:53:59.114Z",
+  "source_timestamp": "2026-11-09T13:53:04.148Z",
+  "method": "Automated same-provider rubric judge, 0-2 per dimension. Not independent or human certification; inspect rationales.",
+  "model": "gpt-6-luna",
+  "total": 21,
+  "scored": 21,
+  "groundedness_mean": 1.9047619047619047,
+  "citation_accuracy_mean": 1.8095238095238095,
+  "results": [
+    {
+      "id": "pto-within",
+      "groundedness": 2,
+      "citation_accuracy": 1,
+      "rationale": "The 12-day balance and 5-day subtraction are supported by the employee facts, and PTO-2 supports the request, lead-time, coverage-review, and approval statements. However, “recorded” refers to the record-update process covered by PTO-5, which is not cited."
+    },
+    {
+      "id": "pto-over",
+      "groundedness": 2,
+      "citation_accuracy": 2,
+      "rationale": "The 12-day balance and 8-day shortfall are supported by the employee facts. The manager-approval statement is supported by PTO-2 and cited. The recommendation to ask HR about alternatives is cautious guidance, not an unsupported policy claim."
+    },
+    {
+      "id": "remote-exception",
+      "groundedness": 2,
+      "citation_accuracy": 2,
+      "rationale": "The employee record shows remoteEligible=false, and REMOTE-1 supports the ineligibility and HR exception-review statements. REMOTE-2 supports the two-day limit, the exception review for three days, and manager approval for coverage and service needs. The statements about approval not being granted, Malaysia-based work, overseas review, and device/VPN requirements are supported by the cited sections. No material unsupported claims or citation problems."
+    },
+    {
+      "id": "remote-standard",
+      "groundedness": 2,
+      "citation_accuracy": 2,
+      "rationale": "All material claims are supported by the supplied employee facts and policy evidence: Aisha is remote-eligible, two days are within the standard limit subject to manager approval, and the location and security requirements are accurately stated. The policy claims cite the applicable sections; the manager’s name is supported by the employee facts."
+    },
+    {
+      "id": "meal-over",
+      "groundedness": 1,
+      "citation_accuracy": 2,
+      "rationale": "The cap comparison, manager exception approval, documentation and deadline requirements, and Finance referral are supported by the cited sections. The recommendation to confirm a domestic location is not supported by the supplied evidence, though it is a minor, conditional suggestion. Citations accurately support the material policy claims."
+    },
+    {
+      "id": "hotel-over",
+      "groundedness": 2,
+      "citation_accuracy": 2,
+      "rationale": "The cap comparison is correctly conditional on the amount being per night and the stay being domestic. The answer accurately states the prior-approval requirement and claim documentation/deadline rules, with supporting citations. No material unsupported claims."
+    },
+    {
+      "id": "benefits",
+      "groundedness": 2,
+      "citation_accuracy": 2,
+      "rationale": "The plan, medical and dental limits, and clarification that these are annual plan limits rather than remaining balances are supported by the employee facts and BENEFITS-1. The recommendation to ask HR or the plan administrator about individual claim eligibility is cautious and does not assert an unsupported eligibility rule. The material policy claims cite BENEFITS-1."
+    },
+    {
+      "id": "zero-days",
+      "groundedness": 2,
+      "citation_accuracy": 2,
+      "rationale": "The 12-working-day balance is supported by the employee facts, and the conclusion that a 0-day request is invalid follows from PTO-2’s positive-whole-working-days rule. That policy claim is correctly cited."
+    },
+    {
+      "id": "fraction-days",
+      "groundedness": 2,
+      "citation_accuracy": 2,
+      "rationale": "The 12-working-day balance is supported by the employee facts, and all policy claims are supported by PTO-2 and cited there. The answer correctly says 1.5 days is not allowed because requests must be in positive whole working days, and accurately notes the notice, manager-approval, and balance-not-approval rules."
+    },
+    {
+      "id": "pto-ambiguous",
+      "groundedness": 2,
+      "citation_accuracy": 1,
+      "rationale": "The balance and employee identity are supported by the supplied facts and tool results. Asking for the requested working days and dates is a reasonable clarification, and PTO-2 supports the stated notice, manager approval, and balance-not-approval rules. However, [PTO-1] is attached to the 12-day balance claim even though PTO-1 describes annual entitlement and says the balance tool—not the policy—is the source for remaining days. The balance itself is supported by the tool, but that citation is mismatched."
+    },
+    {
+      "id": "remote-ambiguous",
+      "groundedness": 2,
+      "citation_accuracy": 2,
+      "rationale": "All material claims are supported by the supplied employee facts and policy sections. The eligibility, weekly limit, manager approval, exception review, location, and security requirements are appropriately cited; asking for the requested days and work location is a reasonable clarification."
+    },
+    {
+      "id": "expense-ambiguous",
+      "groundedness": 2,
+      "citation_accuracy": 2,
+      "rationale": "The response’s meal reimbursement cap, exception approval, personal-meal exclusion, submission deadline, evidence requirements, Finance referral, and payment-card warning are supported by the cited policy sections. It correctly asks for missing expense details and makes no unsupported determination about eligibility."
+    },
+    {
+      "id": "pto-priya",
+      "groundedness": 2,
+      "citation_accuracy": 1,
+      "rationale": "The balance of 3 working days, the 1-day shortfall, and the manager-approval requirement are supported by the supplied facts and PTO-2. However, the policy explanation cites PTO-1 for the balance and shortfall, while PTO-1 only says the balance tool is the source of remaining-day figures; it does not substantiate these specific figures. PTO-2 correctly supports the manager-approval statement."
+    },
+    {
+      "id": "meal-within",
+      "groundedness": 1,
+      "citation_accuracy": 1,
+      "rationale": "The cap, receipt/business-purpose requirements, 30-day deadline, and Finance referral are supported by the cited sections. The recommendation to confirm a domestic location is not supported by the supplied evidence. The statement that the review does not authorize payment is consistent with EXPENSE-3, but it is an uncited policy claim."
+    },
+    {
+      "id": "hotel-within",
+      "groundedness": 2,
+      "citation_accuracy": 2,
+      "rationale": "The conditional MYR 200 comparison, domestic per-night cap, claim evidence and deadline requirements, Finance referral for missing evidence, and non-authorization caveat are supported by the supplied facts and policy sections. Material policy claims have supporting citations."
+    },
+    {
+      "id": "remote-overseas",
+      "groundedness": 2,
+      "citation_accuracy": 2,
+      "rationale": "All material claims are supported by the supplied employee facts and policy evidence. The eligibility and two-day limit/manager-approval claims cite REMOTE-1 and REMOTE-2; overseas review and approved-device/VPN requirements cite REMOTE-3 and SECURITY-2. The answer appropriately does not imply approval for working in Singapore or using a personal device."
+    },
+    {
+      "id": "pto-entitlement",
+      "groundedness": 2,
+      "citation_accuracy": 2,
+      "rationale": "Both material claims are supported by PTO-1, which is cited: full-time employees receive 20 annual leave days per calendar year, and new joiners receive a prorated allocation."
+    },
+    {
+      "id": "pto-carryover",
+      "groundedness": 2,
+      "citation_accuracy": 2,
+      "rationale": "All material claims match PTO-3: up to 5 unused days carry over, expire on 31 March, and exceptions require HR approval before expiry. The citation supports them."
+    },
+    {
+      "id": "security",
+      "groundedness": 2,
+      "citation_accuracy": 2,
+      "rationale": "All policy claims are supported by SECURITY-1 and cited with [SECURITY-1]."
+    },
+    {
+      "id": "conduct",
+      "groundedness": 2,
+      "citation_accuracy": 2,
+      "rationale": "All policy claims are supported by CONDUCT-1, and the citation correctly identifies the supporting policy section."
+    },
+    {
+      "id": "remote-limit",
+      "groundedness": 2,
+      "citation_accuracy": 2,
+      "rationale": "The material claims are supported by the supplied facts and policies: the employee is remote-eligible; four days exceeds the two-day standard and requires HR exception review; manager approval is required for coverage and service needs; and standard remote work in Malaysia requires approved devices and a VPN. The answer also correctly states that the assistant cannot approve an exception. The policy claims have supporting citations, including the no-approval and HR-review statements cited to REMOTE-1."
+    }
+  ]
+}

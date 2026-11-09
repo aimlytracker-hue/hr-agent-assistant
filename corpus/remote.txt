@@ -1,0 +1,81 @@
+DOCUMENT Remote work — Synthetic demonstration
+
+SECTION REMOTE-1 | Eligibility
+META {"category":"Remote work","keywords":"remote hybrid home work location eligibility office abroad","page":6,"version":"1.0","effective":"2026-11-01"}
+Remote work is available only for roles marked remoteEligible in the employee record. Customer-facing branch roles are not eligible under the standard arrangement. HR can review an exception, but the assistant cannot grant one.
+
+Scope and responsibility
+This is a fictional remote work policy for the HR assistant demonstration. It applies to the mock employees in the supplied dataset. The employee initiates the request, the manager reviews operational impact, and HR or the relevant specialist confirms exceptions.
+
+Procedure
+Read this rule before making a request. Confirm the relevant employee record and provide only the facts needed for review. Where a rule depends on a balance, role, amount or document, verify that fact through the appropriate tool or responsible owner. If a fact is missing, request clarification.
+
+Control and escalation
+Keep policy evidence with the response using this page and section identifier. No assistant response grants approval, updates an official personnel record or commits funds. Route uncertain or exceptional cases to the accountable reviewer. A saved ticket documents a request only.
+
+Example and review
+An employee asks about eligibility. The assistant retrieves this section, states the applicable rule and identifies missing information before preparing any follow-up. The reviewer checks the request against the cited version. HR owns changes to this demonstration rule; the effective date and version identify the material used.
+
+SECTION REMOTE-2 | Standard arrangement
+META {"category":"Remote work","keywords":"remote hybrid home work location eligibility office abroad","page":7,"version":"1.0","effective":"2026-11-01"}
+Eligible employees may request up to 2 remote working days per week. Manager approval is required for coverage and service needs. More than 2 days requires an HR exception review.
+
+Scope and responsibility
+This is a fictional remote work policy for the HR assistant demonstration. It applies to the mock employees in the supplied dataset. The employee initiates the request, the manager reviews operational impact, and HR or the relevant specialist confirms exceptions.
+
+Procedure
+Read this rule before making a request. Confirm the relevant employee record and provide only the facts needed for review. Where a rule depends on a balance, role, amount or document, verify that fact through the appropriate tool or responsible owner. If a fact is missing, request clarification.
+
+Control and escalation
+Keep policy evidence with the response using this page and section identifier. No assistant response grants approval, updates an official personnel record or commits funds. Route uncertain or exceptional cases to the accountable reviewer. A saved ticket documents a request only.
+
+Example and review
+An employee asks about standard arrangement. The assistant retrieves this section, states the applicable rule and identifies missing information before preparing any follow-up. The reviewer checks the request against the cited version. HR owns changes to this demonstration rule; the effective date and version identify the material used.
+
+SECTION REMOTE-3 | Location and security
+META {"category":"Remote work","keywords":"remote hybrid home work location eligibility office abroad","page":8,"version":"1.0","effective":"2026-11-01"}
+Standard remote work must be performed within Malaysia using an approved device and VPN. Overseas working requires separate HR, tax and security review before travel.
+
+Scope and responsibility
+This is a fictional remote work policy for the HR assistant demonstration. It applies to the mock employees in the supplied dataset. The employee initiates the request, the manager reviews operational impact, and HR or the relevant specialist confirms exceptions.
+
+Procedure
+Read this rule before making a request. Confirm the relevant employee record and provide only the facts needed for review. Where a rule depends on a balance, role, amount or document, verify that fact through the appropriate tool or responsible owner. If a fact is missing, request clarification.
+
+Control and escalation
+Keep policy evidence with the response using this page and section identifier. No assistant response grants approval, updates an official personnel record or commits funds. Route uncertain or exceptional cases to the accountable reviewer. A saved ticket documents a request only.
+
+Example and review
+An employee asks about location and security. The assistant retrieves this section, states the applicable rule and identifies missing information before preparing any follow-up. The reviewer checks the request against the cited version. HR owns changes to this demonstration rule; the effective date and version identify the material used.
+
+SECTION REMOTE-4 | Availability
+META {"category":"Remote work","keywords":"remote hybrid home work location eligibility office abroad","page":9,"version":"1.0","effective":"2026-11-01"}
+Agree core collaboration hours and response expectations with your manager. Keep the team calendar current. A remote day remains a working day and must not be submitted as leave.
+
+Scope and responsibility
+This is a fictional remote work policy for the HR assistant demonstration. It applies to the mock employees in the supplied dataset. The employee initiates the request, the manager reviews operational impact, and HR or the relevant specialist confirms exceptions.
+
+Procedure
+Read this rule before making a request. Confirm the relevant employee record and provide only the facts needed for review. Where a rule depends on a balance, role, amount or document, verify that fact through the appropriate tool or responsible owner. If a fact is missing, request clarification.
+
+Control and escalation
+Keep policy evidence with the response using this page and section identifier. No assistant response grants approval, updates an official personnel record or commits funds. Route uncertain or exceptional cases to the accountable reviewer. A saved ticket documents a request only.
+
+Example and review
+An employee asks about availability. The assistant retrieves this section, states the applicable rule and identifies missing information before preparing any follow-up. The reviewer checks the request against the cited version. HR owns changes to this demonstration rule; the effective date and version identify the material used.
+
+SECTION REMOTE-5 | Review and exceptions
+META {"category":"Remote work","keywords":"remote hybrid home work location eligibility office abroad","page":10,"version":"1.0","effective":"2026-11-01"}
+Managers review arrangements every 90 days and may change them for service requirements. Record an exception rationale and proposed duration in an HR ticket. A ticket is a request for review, not an approval.
+
+Scope and responsibility
+This is a fictional remote work policy for the HR assistant demonstration. It applies to the mock employees in the supplied dataset. The employee initiates the request, the manager reviews operational impact, and HR or the relevant specialist confirms exceptions.
+
+Procedure
+Read this rule before making a request. Confirm the relevant employee record and provide only the facts needed for review. Where a rule depends on a balance, role, amount or document, verify that fact through the appropriate tool or responsible owner. If a fact is missing, request clarification.
+
+Control and escalation
+Keep policy evidence with the response using this page and section identifier. No assistant response grants approval, updates an official personnel record or commits funds. Route uncertain or exceptional cases to the accountable reviewer. A saved ticket documents a request only.
+
+Example and review
+An employee asks about review and exceptions. The assistant retrieves this section, states the applicable rule and identifies missing information before preparing any follow-up. The reviewer checks the request against the cited version. HR owns changes to this demonstration rule; the effective date and version identify the material used.

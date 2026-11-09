@@ -1,10 +1,10 @@
 # HR Agent Assistant
 
-A private demonstration of policy retrieval, employee-specific guidance and reviewable HR workflows. All policies and employee records are fictional. This application is not Bank Rakyat policy or an operational HR system.
+A synthetic demonstration of policy retrieval, employee-specific guidance and reviewable HR workflows. All policies and employee records are fictional. This application is not Bank Rakyat policy or an operational HR system.
 
 ## Start here
 
-- Open the deployed private Site supplied in the delivery report.
+- Open [https://hr-agent-assistant-scott-1109.almondgoldfinch1.chatgpt.site](https://hr-agent-assistant-scott-1109.almondgoldfinch1.chatgpt.site) (public URL; use your own ChatGPT sign-in for the assistant and requests).
 - Select Aisha Rahman and ask `Can I take 5 days of annual leave?`.
 - Read the answer, open its citations, inspect MCP tool activity, review the draft, and save the request.
 - Select Priya Kumar and ask `Can I work remotely 3 days per week in Malaysia?`.
@@ -16,6 +16,7 @@ Requires Node.js 22.13 or newer and npm. Dependencies are pinned in package-lock
 
 ```sh
 npm ci
+node scripts/ingest.mjs --check
 node --test tests/core.test.mjs
 node scripts/evaluate.mjs
 npm run build
@@ -45,3 +46,16 @@ For a production-build smoke test, start `npm start -- --port 4174`, then run `T
 | Reviewer materials | docs/ and deliverables/ | Design, operations, policy corpus and demo |
 
 See docs/DESIGN_AND_OPERATIONS.md for decisions, limits, monitoring and release controls. See docs/ACCEPTANCE.md for the rubric mapping and outstanding acceptance items.
+
+
+## Assignment submission materials
+
+- [Design and evaluation](design-and-evaluation.md): architecture, schemas, retrieval, metrics and limitations.
+- [AI tooling disclosure](ai-tooling.md): how Codex and model APIs were used.
+- [Deployment](deployed.md): app/health URLs, access, cold starts and release gate.
+- [Recording script](docs/RECORDING_SCRIPT.md): timed 7–10 minute live screen-share walkthrough.
+- [Final requirement audit](docs/FINAL_REQUIREMENTS_AUDIT.md): evidence and remaining personal submission steps.
+- `corpus/`: six Markdown/TXT source documents; `mock_data/`: fictional employee ledger.
+- `evaluation/questions.json`: 26 questions with gold answers; results, semantic rubric review and ablation alongside.
+
+The presenter must record their own voice/camera demonstration and complete the course identity check. A slide deck and screenshots are supporting material, not substitutes for the required recording. Share the repository with quantic-grader and verify the grader can open the app and video before submitting both links through the course dashboard. Do not store identity documents or recordings containing ID in this source repository.

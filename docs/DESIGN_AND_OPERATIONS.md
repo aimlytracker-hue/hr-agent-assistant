@@ -1,3 +1,5 @@
+> Revision note: the current assignment review is in design-and-evaluation.md and docs/FINAL_REQUIREMENTS_AUDIT.md. The updated evaluation has 26 gold cases and 20 core tests. MCP traces now include returned results; ingestion reads six Markdown/TXT sources into a persisted sparse store.
+
 # Design and operations
 
 ## Purpose and scope

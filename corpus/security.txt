@@ -1,0 +1,81 @@
+DOCUMENT Information security — Synthetic demonstration
+
+SECTION SECURITY-1 | Access control
+META {"category":"Information security","keywords":"security password vpn phishing device data privacy access","page":26,"version":"1.0","effective":"2026-11-01"}
+Use individual approved accounts and multifactor authentication. Never share passwords, tokens or recovery codes. Access must be limited to the business need and reviewed when roles change.
+
+Scope and responsibility
+This is a fictional information security policy for the HR assistant demonstration. It applies to the mock employees in the supplied dataset. The employee initiates the request, the manager reviews operational impact, and HR or the relevant specialist confirms exceptions.
+
+Procedure
+Read this rule before making a request. Confirm the relevant employee record and provide only the facts needed for review. Where a rule depends on a balance, role, amount or document, verify that fact through the appropriate tool or responsible owner. If a fact is missing, request clarification.
+
+Control and escalation
+Keep policy evidence with the response using this page and section identifier. No assistant response grants approval, updates an official personnel record or commits funds. Route uncertain or exceptional cases to the accountable reviewer. A saved ticket documents a request only.
+
+Example and review
+An employee asks about access control. The assistant retrieves this section, states the applicable rule and identifies missing information before preparing any follow-up. The reviewer checks the request against the cited version. HR owns changes to this demonstration rule; the effective date and version identify the material used.
+
+SECTION SECURITY-2 | Devices and networks
+META {"category":"Information security","keywords":"security password vpn phishing device data privacy access","page":27,"version":"1.0","effective":"2026-11-01"}
+Use approved devices and the corporate VPN when accessing protected resources remotely. Lock screens when unattended and install required security updates.
+
+Scope and responsibility
+This is a fictional information security policy for the HR assistant demonstration. It applies to the mock employees in the supplied dataset. The employee initiates the request, the manager reviews operational impact, and HR or the relevant specialist confirms exceptions.
+
+Procedure
+Read this rule before making a request. Confirm the relevant employee record and provide only the facts needed for review. Where a rule depends on a balance, role, amount or document, verify that fact through the appropriate tool or responsible owner. If a fact is missing, request clarification.
+
+Control and escalation
+Keep policy evidence with the response using this page and section identifier. No assistant response grants approval, updates an official personnel record or commits funds. Route uncertain or exceptional cases to the accountable reviewer. A saved ticket documents a request only.
+
+Example and review
+An employee asks about devices and networks. The assistant retrieves this section, states the applicable rule and identifies missing information before preparing any follow-up. The reviewer checks the request against the cited version. HR owns changes to this demonstration rule; the effective date and version identify the material used.
+
+SECTION SECURITY-3 | Data handling
+META {"category":"Information security","keywords":"security password vpn phishing device data privacy access","page":28,"version":"1.0","effective":"2026-11-01"}
+Do not paste real employee records, identity numbers, health information or credentials into this synthetic demonstration. Production HR data requires approved access controls, retention and privacy review.
+
+Scope and responsibility
+This is a fictional information security policy for the HR assistant demonstration. It applies to the mock employees in the supplied dataset. The employee initiates the request, the manager reviews operational impact, and HR or the relevant specialist confirms exceptions.
+
+Procedure
+Read this rule before making a request. Confirm the relevant employee record and provide only the facts needed for review. Where a rule depends on a balance, role, amount or document, verify that fact through the appropriate tool or responsible owner. If a fact is missing, request clarification.
+
+Control and escalation
+Keep policy evidence with the response using this page and section identifier. No assistant response grants approval, updates an official personnel record or commits funds. Route uncertain or exceptional cases to the accountable reviewer. A saved ticket documents a request only.
+
+Example and review
+An employee asks about data handling. The assistant retrieves this section, states the applicable rule and identifies missing information before preparing any follow-up. The reviewer checks the request against the cited version. HR owns changes to this demonstration rule; the effective date and version identify the material used.
+
+SECTION SECURITY-4 | Incident reporting
+META {"category":"Information security","keywords":"security password vpn phishing device data privacy access","page":29,"version":"1.0","effective":"2026-11-01"}
+Report suspected phishing, lost devices or unauthorized access immediately through the approved security incident channel. Do not investigate by opening suspicious attachments or sharing passwords.
+
+Scope and responsibility
+This is a fictional information security policy for the HR assistant demonstration. It applies to the mock employees in the supplied dataset. The employee initiates the request, the manager reviews operational impact, and HR or the relevant specialist confirms exceptions.
+
+Procedure
+Read this rule before making a request. Confirm the relevant employee record and provide only the facts needed for review. Where a rule depends on a balance, role, amount or document, verify that fact through the appropriate tool or responsible owner. If a fact is missing, request clarification.
+
+Control and escalation
+Keep policy evidence with the response using this page and section identifier. No assistant response grants approval, updates an official personnel record or commits funds. Route uncertain or exceptional cases to the accountable reviewer. A saved ticket documents a request only.
+
+Example and review
+An employee asks about incident reporting. The assistant retrieves this section, states the applicable rule and identifies missing information before preparing any follow-up. The reviewer checks the request against the cited version. HR owns changes to this demonstration rule; the effective date and version identify the material used.
+
+SECTION SECURITY-5 | Records and retention
+META {"category":"Information security","keywords":"security password vpn phishing device data privacy access","page":30,"version":"1.0","effective":"2026-11-01"}
+HR and Security set retention schedules for employee records and audit events. This demonstration stores only fictional HR requests. Production retention and deletion controls must be agreed before real-data use.
+
+Scope and responsibility
+This is a fictional information security policy for the HR assistant demonstration. It applies to the mock employees in the supplied dataset. The employee initiates the request, the manager reviews operational impact, and HR or the relevant specialist confirms exceptions.
+
+Procedure
+Read this rule before making a request. Confirm the relevant employee record and provide only the facts needed for review. Where a rule depends on a balance, role, amount or document, verify that fact through the appropriate tool or responsible owner. If a fact is missing, request clarification.
+
+Control and escalation
+Keep policy evidence with the response using this page and section identifier. No assistant response grants approval, updates an official personnel record or commits funds. Route uncertain or exceptional cases to the accountable reviewer. A saved ticket documents a request only.
+
+Example and review
+An employee asks about records and retention. The assistant retrieves this section, states the applicable rule and identifies missing information before preparing any follow-up. The reviewer checks the request against the cited version. HR owns changes to this demonstration rule; the effective date and version identify the material used.

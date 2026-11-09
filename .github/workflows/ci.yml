@@ -16,6 +16,8 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci
+      - run: node scripts/ingest.mjs --check
+      - run: node scripts/ablation.mjs
       - run: node --test tests/core.test.mjs
       - run: node scripts/evaluate.mjs
       - run: npm run build
