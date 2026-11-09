@@ -1,0 +1,45 @@
+name: HR assistant validation
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: node --test tests/core.test.mjs
+      - run: node scripts/evaluate.mjs
+      - run: npm run build
+      - name: Initialize local test database
+        run: node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0000_fantastic_martin_li.sql
+      - name: Start and verify built server and MCP
+        run: |
+          npm start -- --port 4173 > server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID' EXIT
+          for i in $(seq 1 30); do curl -fsS http://127.0.0.1:4173/health && break || sleep 2; done
+          node scripts/smoke.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: validation-evidence
+          path: |
+            evaluation/
+            server.log
+  deployment-gate:
+    needs: validate
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: Report release readiness
+        run: echo 'Validated source is ready. Publish this commit with the Sites authenticated source workflow. No unauthenticated deployment hook is used.'

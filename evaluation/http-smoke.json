@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-11-09T13:04:19.009Z",
+  "health": {
+    "status": "ok",
+    "version": "1.0.0",
+    "policy_chunks": 30,
+    "storage": true,
+    "model": "rules",
+    "synthetic_data": true
+  },
+  "mcp_discovery": true,
+  "mcp_tool_call": true
+}

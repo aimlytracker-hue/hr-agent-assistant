@@ -1,0 +1,3 @@
+import {policies} from '../../../lib/hr/data.mjs';
+export default async function Policy({params}:{params:Promise<{id:string}>}){const {id}=await params;const p=policies.find((p:any)=>p.id===id);if(!p)return <main><h1>Policy not found</h1><a href="/">Return to assistant</a></main>;
+return <main className="policy-page"><a href="/">← Back to HR assistant</a><p className="eyebrow">FICTIONAL POLICY · {p.id}</p><h1>{p.title}</h1><p className="muted">{p.category} · Version {p.version} · Effective {p.effective} · Corpus page {p.page}</p><div className="policy-body">{p.text}</div><p className="notice">Demonstration only. This is not Bank Rakyat policy.</p></main>;}
